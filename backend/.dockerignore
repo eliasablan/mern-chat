@@ -1,0 +1,23 @@
+# Dependencias y logs
+node_modules
+npm-debug.log
+yarn-error.log
+.env
+
+# Configuraciones de desarrollo
+.vscode
+.idea
+.DS_Store
+
+# Archivos de Docker
+docker-compose*.yml
+Dockerfile
+
+# Directorios de pruebas
+test
+coverage
+
+# Otros
+.git
+.gitignore
+.dockerignore 

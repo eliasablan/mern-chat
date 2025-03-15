@@ -1,0 +1,21 @@
+# Archivos de desarrollo
+node_modules
+.DS_Store
+.env
+.env.local
+.vscode
+.idea
+
+# Build artifacts
+dist
+dist-ssr
+*.log
+
+# Configuraciones locales
+docker-compose*.yml
+Dockerfile
+
+# Otros
+.git
+.gitignore
+.dockerignore
