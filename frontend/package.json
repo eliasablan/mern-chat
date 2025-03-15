@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "bunx --bun vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite --port 3000 --host 0.0.0.0"
   },
   "dependencies": {
     "axios": "^1.7.7",

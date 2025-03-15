@@ -13,14 +13,14 @@ import { app, server } from "./lib/socket.js";
 
 dotenv.config();
 
-const PORT = process.env.PORT;
+const PORT = Bun.env.PORT;
 const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: Bun.env.ORIGIN,
     credentials: true,
   })
 );
